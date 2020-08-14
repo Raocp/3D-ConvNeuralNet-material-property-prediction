@@ -25,14 +25,21 @@ This repo includes the dataset/scripts of 3D Convolutional Neural Network for ma
 
 # Overview
 
-<img src="https://github.com/Raocp/3D-ConvNeuralNet-material-property-prediction/blob/master/gallery/clous_pt.png?raw=true" width="500">
+<img src="https://github.com/Raocp/3D-ConvNeuralNet-material-property-prediction/blob/master/gallery/clous_pt.png?raw=true" width="400">
 
 > Input **X** for the 3D Convolutional Neural Net, i.e. Cartisian grid carrying phase indication
+
+
 
 ![](https://github.com/Raocp/3D-ConvNeuralNet-material-property-prediction/blob/master/gallery/NN_archi.png?raw=true)
 
 > Architecture of the 3D Convolutional Neural Net
 
+
+
+<img src="https://github.com/Raocp/3D-ConvNeuralNet-material-property-prediction/blob/master/gallery/Pred_vs_Truth_test.png" width="700">
+
+> Achieved prediction versus ground truth on testing data
 
 
 # Note
