@@ -18,7 +18,7 @@ This repo includes the dataset/scripts of 3D Convolutional Neural Network for ma
 ```
 
 # Description for each file
-- **3D_CNN_training.py**: Training scripts ;
+- **training&plot.py**: Data processing, training and postprocessing scripts ;
 - **data**: The dataset for this application contains 2000 samples or (**X, Y**) pairs. **X** is the tensor of size 101x101x101 that carries the phase indication for a two-phase heterogeneous material microstructure (or Representative Volume Element). **Y** is a vector of size 12 that represents the effective material properties for the microstructure.
 - **saved_model**: The model with best performance on validation set.
 - **gallery**: Some figures.
