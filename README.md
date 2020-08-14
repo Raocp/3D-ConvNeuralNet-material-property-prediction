@@ -11,16 +11,17 @@ This repo includes the dataset/scripts of 3D Convolutional Neural Network for ma
 - **saved_model**: The model with best performance on validation set.
 - **gallery**: Some figures.
 
-# Results overview
+# Overview
 
-![](https://github.com/Raocp/PINN-laminar-flow/blob/master/PINN_steady/uvp.png)
+![](https://github.com/Raocp/3D-ConvNeuralNet-material-property-prediction/blob/master/gallery/clous_pt.png?raw=true)
 
-> Steady flow past a cylinder (left: physics-informed neural network; right: Ansys Fluent.)
+> Input for the 3D Convolutional Neural Net, i.e. Cartisian grid carrying phase indication
+
+![](https://github.com/Raocp/3D-ConvNeuralNet-material-property-prediction/blob/master/gallery/NN_archi.png?raw=true)
+
+> Architecture of the 3D Convolutional Neural Net
 
 
-![](https://github.com/Raocp/PINN-laminar-flow/blob/master/PINN_unsteady/uvp_animation.gif)
-
-> Transient flow past a cylinder (physics-informed neural network result)
 
 # Note
 - The code was developed based on TensorFlow 1.10.0 and Keras 2.2.4. All the runtime performance are evaluated on GeForce GTX 1080 Ti.
